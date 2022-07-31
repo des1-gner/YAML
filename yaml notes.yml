@@ -1,0 +1,37 @@
+# --- start
+# - list
+# : arrays
+# ... end
+
+# list [],
+# > string more than 1 line.
+# | pipe interprette as seperate lines
+# null / ~ = no value or unknown
+
+--- #YAML
+Personal Information: 
+  Name: 
+    First: Oisin
+    Last: Aeonn
+  DOB: 23/02/2002
+  Age: 20
+  Course_Enjoyment: True
+
+Numbers: [1,2,3,4,5,6,7,8,9]
+Subjects: 
+  S1: [oop, 1, 16 weeks]
+  S2: [lft, 2, 17 weeks]
+  S3: [cloud, 3, 14 weeks]
+  S4: [vms, 4, 19 weeks]
+
+
+array: 
+  -hello
+  -world
+  list: 
+  [1,2,3,4,5,6,7,8,9]
+  fail: false
+  num1: 45
+  num2: 31
+...
+
